@@ -1,0 +1,17 @@
+.nav-item{
+    @apply mb-4
+}
+.nav-item-icon{
+    @apply w-[48px] h-[48px] hover:bg-navMenuIconHover bg-navMenuIcon flex justify-center items-center rounded-2xl
+}
+.nav-item h3{
+   @apply ml-4  text-bgInput hover:text-white
+}
+
+.nav-item a.active .nav-item-icon{
+    @apply bg-navMenuIconHover 
+}
+
+.nav-item a.active h3{
+    @apply text-white
+}

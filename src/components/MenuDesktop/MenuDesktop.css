@@ -1,0 +1,16 @@
+.Menu-desktop h1{
+    @apply text-white text-xs leading-[18px] tracking-[6px] mb-4
+}
+
+
+@media screen and (max-width: 759px){
+    .Menu-desktop{
+        @apply hidden
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .Menu-desktop{
+        @apply hidden
+    }
+}

@@ -1,0 +1,21 @@
+
+
+.bg-code-editor{
+    @apply w-full flex flex-col justify-center items-center max-w-[752px] h-[366px] bg-white rounded-lg ml-2 relative px-8
+}
+
+.Editor{
+    @apply w-full max-w-[688px]   h-[302px] text-lg font-mono bg-bgEditor rounded-lg text-white pt-[40px] 
+}
+
+.icons-editor{
+    @apply flex gap-2 absolute left-[50px] top-[50px]
+}
+
+.preview{
+    @apply block rounded-[7px] h-full whitespace-pre-wrap outline-none;
+}
+
+.Editor pre{
+    @apply h-full
+}

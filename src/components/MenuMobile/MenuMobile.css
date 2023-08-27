@@ -1,0 +1,61 @@
+.menu-mobile{
+    @apply hidden mt-1 
+}
+
+.menu-mobile .search{
+    @apply hidden
+}
+
+.menu-hamburguer img{
+    @apply cursor-pointer w-[30px]
+}
+
+.menu-hamburguer{
+  @apply w-[48px] h-[48px] hover:bg-bgButton flex justify-center rounded-2xl
+}
+
+.menu-hamburguer.active{
+    @apply bg-navMenuIcon
+  }
+  
+
+.menu-mobile ul {
+    @apply absolute right-[25px] top-[110px] rounded-lg w-[254px] h-[300px] bg-bgMenuMobile z-[1] pl-6 pt-6 translate-x-[-32px] opacity-0 invisible;
+    transition: all .2s;
+}
+
+.menu-mobile ul.active{
+  @apply opacity-[1] visible translate-x-0
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .menu-mobile{
+        @apply block ml-10
+    }
+
+    .menu-mobile ul .User{
+        @apply flex
+    }
+}
+@media screen and (max-width: 759px){
+    .menu-mobile{
+        @apply block
+    }
+
+    .menu-mobile ul .User{
+        @apply flex
+    }
+
+    .menu-mobile .search{
+        @apply flex
+    }
+    
+}

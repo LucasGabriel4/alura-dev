@@ -1,0 +1,3 @@
+.InputComponent{
+    @apply bg-bgInput pl-3.5 rounded-lg mb-4 hover:bg-bgInputHover outline-none text-white
+}

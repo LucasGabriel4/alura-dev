@@ -1,0 +1,3 @@
+.Card-project{
+    @apply flex justify-center flex-col items-center
+}

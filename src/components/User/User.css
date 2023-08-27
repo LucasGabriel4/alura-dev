@@ -1,0 +1,18 @@
+
+
+.User{
+    @apply flex items-center gap-x-2 text-white p-[12px] w-[106px] h-[56px] hover:bg-bgInput rounded-lg cursor-pointer ml-3
+}
+
+
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .User{
+        @apply hidden
+    } 
+}
+@media screen and (max-width: 759px){
+    .User{
+        @apply hidden
+    }
+}

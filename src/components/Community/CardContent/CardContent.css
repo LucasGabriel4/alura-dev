@@ -1,0 +1,23 @@
+.card-content{
+   @apply  bg-bgCardContent w-full max-w-[752px] px-6 py-6 ml-2 text-white rounded-b-lg;  
+}
+
+.card-content h1{
+    @apply text-[21px] mb-2 font-bold;
+}
+
+
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .card-content .User{
+        display: flex;
+      }
+
+   
+}
+@media screen and (max-width: 759px){
+  .card-content .User{
+    display: flex;
+  }
+}
+

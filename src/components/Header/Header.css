@@ -1,0 +1,22 @@
+
+.header{
+    @apply  py-8 flex justify-between 
+}
+
+
+
+.header svg{
+   @apply mr-3 mt-3
+}
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .header svg{
+        @apply mr-10
+    }
+}
+
+@media screen and (max-width: 759px){
+    .header input {
+        @apply hidden
+    }
+}

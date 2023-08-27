@@ -1,0 +1,47 @@
+
+.Code-Editor-container{
+    @apply flex gap-10 items-start
+}
+
+
+.btn-highlight{
+    @apply bg-bgButton hover:bg-navMenuIcon  w-full max-w-[752px] py-4 rounded-lg text-white mt-8
+}
+
+.Code-Editor{
+    @apply w-[70%] flex justify-center items-center flex-col
+}
+
+
+::-webkit-scrollbar-track {
+    @apply bg-bgEditor 
+}
+::-webkit-scrollbar {
+    @apply bg-bgEditor w-3
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-bgInput rounded-xl
+}
+
+
+
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .Code-Editor-container{
+        @apply flex-col
+    }
+
+    .Code-Editor{
+        @apply w-[100%]
+    }
+}
+
+@media screen and (max-width: 759px){
+    .Code-Editor-container{
+        @apply flex-col
+    }
+
+    
+    .Code-Editor{
+        @apply w-[100%]
+    }
+}
